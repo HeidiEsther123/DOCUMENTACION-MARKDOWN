@@ -132,21 +132,68 @@ $$
 
 $$ AB =
 \begin{pmatrix}
-(2 * 5 & -1 * -1) (2 * 2 & -1 * 3)  \\
-(3 * 5 & 4 * -1) (3 * 2 & 4 * 3) \\
+(2 * 5 + -1 * -1) (2 * 2 + -1 * 3)  \\
+(3 * 5 + 4 * -1) (3 * 2 + 4 * 3) \\
 \end{pmatrix}
 $$
 
 $$ AB =
 \begin{pmatrix}
-7 & 1 \\
-2 & 7 \\
+11 & 1 \\
+11 & 18 \\
+\end{pmatrix}
+$$
+
+Calcula BA
+
+$$ A =
+\begin{pmatrix}
+2 & -1  \\
+3 & 4  \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+5 & 2  \\
+-1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ BA =
+\begin{pmatrix}
+(5 * 2 + 2 * 3) (5 * -1 + 2 * 4)  \\
+(3 * 5 + 4 * -1) (-1 * -1 + 3 * 4) \\
+\end{pmatrix}
+$$
+
+$$ BA=
+\begin{pmatrix}
+16 & 3 \\
+7 & 13 \\
+\end{pmatrix}
+$$
+
+Transpuesta de A
+
+$$ A =
+\begin{pmatrix}
+2 & -1  \\
+3 & 4  \\
+\end{pmatrix}
+$$
+
+$$ AT =
+\begin{pmatrix}
+2 & 3  \\
+-1 & 4  \\
 \end{pmatrix}
 $$
 
 ---
-# OTRO EJERCICIO
-...
+# EJERCICIO 3
+
+
 
 
 
