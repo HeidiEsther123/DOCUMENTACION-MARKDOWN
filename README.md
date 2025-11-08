@@ -1,21 +1,51 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
+## Alumno: Heidi Esther Peña Betanzos
 ## Actividad \#16 - Matrices doc
 
 ---
-### Identificación de matrices
+# Identificación de matrices
+## EJERCICIO 1
+### Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
 
-Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
-
-$$ A =
+$$ A 
 \begin{pmatrix}
 1 & 0 \\
 0 & 1 \\
 \end{pmatrix}
 $$
 
-MUESTRA
+### Matriz diagonal, está compuestos por numeros en forma diagonal y los elementos fuera de la diagonal son ceros.
+
+$$ B
+\begin{pmatrix}
+3 & 0 & 0 \\
+0 & -2 & 0 \\
+0 & 0 & 5\\
+\end{pmatrix}
+$$
+
+### Matriz simetrica, está compuestos por numeros los cuales estan reflejados en el otro lado.
+
+$$ C
+\begin{pmatrix}
+2 & 1 & 4 \\
+1 & 3 & 5 \\
+4 & 5 & 6 \\
+\end{pmatrix}
+$$
+
+### Matriz triangular superior, está compuestos por numeros los cuales estan de forma triangular en la parte de arriba de las filas y columnas, los demas valores son 0.
+
+$$ D
+\begin{pmatrix}
+1 & 2 & 3 \\
+0 & 4 & 5 \\
+0 & 0 & 6 \\
+\end{pmatrix}
+$$
+
+#### EJERCICIO 2
 
 Calcula la suma de A y B
 
