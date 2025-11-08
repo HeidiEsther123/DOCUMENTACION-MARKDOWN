@@ -194,6 +194,7 @@ $$
 # EJERCICIO 3
 
 Muliplicacion de cadena
+
 $$ A =
 \begin{pmatrix}
 1 & 2  \\
@@ -246,12 +247,41 @@ $$ (AB)C =
 \end{pmatrix}
 $$
 
-## Verificacion 
+## Verificacion de que (AB)C = A(BC)
 
+#### parte 1 BC
 
+$$ BC =
+\begin{pmatrix}
+(2 * 1 + 0 * 0) (2 * 1 + 0 * 2)  \\
+(10 * 1 + 3 * 0) (1 * 1 + 3 * 2) \\
+\end{pmatrix}
+$$
 
+$$ BC =
+\begin{pmatrix}
+2 & 2 \\
+1 & 7 \\
+\end{pmatrix}
+$$
 
+#### parte 2 A(BC)
 
+$$ A(BC) =
+\begin{pmatrix}
+(1 * 2 + 2 * 1) (1 * 2 + 2 * 7)  \\
+(3 * 2 + 4 * 1) (3 * 2 + 4 * 7) \\
+\end{pmatrix}
+$$
+
+$$ A(BC) =
+\begin{pmatrix}
+4 & 16 \\
+10 & 34 \\
+\end{pmatrix}
+$$
+
+### Con esta verificacion podemos confirmar que (AB)C = A(BC) y es aciosativa.
 ---
 
 
