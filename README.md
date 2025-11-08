@@ -51,29 +51,96 @@ Calcula la suma de A y B
 
 $$ A =
 \begin{pmatrix}
-1 & 2 & 3 \\
-4 & 5 & 6 \\
+2 & -1  \\
+3 & 4  \\
 \end{pmatrix}
 $$
 
 $$ B =
 \begin{pmatrix}
-9 & 10 & 11 \\
-12 & 13 & 14 \\
+5 & 2  \\
+-1 & 3 \\
 \end{pmatrix}
 $$
 
 $$ A + B =
 \begin{pmatrix}
-1 + 9 & 2 + 10 & 3 + 11 \\
-4 + 12 & 5 + 13 & 6 + 14 \\
+2 + 5 & -1 + 2  \\
+3 + -1 & 4 + 3 \\
 \end{pmatrix}
 $$
 
 $$ A + B =
 \begin{pmatrix}
-10 & 12 & 14 \\
-16 & 18 & 20 \\
+7 & 1 \\
+2 & 7 \\
+\end{pmatrix}
+$$
+
+Calcula la resta de 2A y B
+
+$$ A =
+\begin{pmatrix}
+2 & -1  \\
+3 & 4  \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+5 & 2  \\
+-1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ 2A  =
+\begin{pmatrix}
+4 & -2 \\
+6 & 8 \\
+\end{pmatrix}
+$$
+
+$$ 2A + B =
+\begin{pmatrix}
+4 - 5 & -2 - 2  \\
+6 - -1 & 8 - 3 \\
+\end{pmatrix}
+$$
+
+$$ 2A + B =
+\begin{pmatrix}
+-1 & -4 \\
+7 & 5 \\
+\end{pmatrix}
+$$
+
+Calcula AB
+
+$$ A =
+\begin{pmatrix}
+2 & -1  \\
+3 & 4  \\
+\end{pmatrix}
+$$
+
+$$ B =
+\begin{pmatrix}
+5 & 2  \\
+-1 & 3 \\
+\end{pmatrix}
+$$
+
+$$ AB =
+\begin{pmatrix}
+(2 * 5 & -1 * -1) (2 * 2 & -1 * 3)  \\
+(3 * 5 & 4 * -1) (3 * 2 & 4 * 3) \\
+\end{pmatrix}
+$$
+
+$$ AB =
+\begin{pmatrix}
+7 & 1 \\
+2 & 7 \\
 \end{pmatrix}
 $$
 
