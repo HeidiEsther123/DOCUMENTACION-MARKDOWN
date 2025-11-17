@@ -1,11 +1,9 @@
-
-
-
-
-
-
-
-
+# Tecnológico de Software
+## Materia: Fundamentos de álgebra
+## Alumno: Heidi Esther Peña Betanzos
+## Grado: 1C
+## Actividad \#18 - Ejercicios con Git Branches
+-------
 ## EJERCICIO 1 Determinantes 2×2
 
 # EJERCICIO 1  
@@ -17,7 +15,7 @@ A =
 $$
 A = \begin{pmatrix}
 5 & 2 \\
-3 & 1
+3 & 1 \\
 \end{pmatrix}
 $$
 
@@ -25,7 +23,7 @@ B =
 $$
 B = \begin{pmatrix}
 -1 & 4 \\
-2 & -8
+2 & -8 \\
 \end{pmatrix}
 $$
 
@@ -33,7 +31,7 @@ C =
 $$
 C = \begin{pmatrix}
 6 & 9 \\
-2 & 3
+2 & 3 \\
 \end{pmatrix}
 $$
 
@@ -41,7 +39,7 @@ D =
 $$
 D = \begin{pmatrix}
 0 & 5 \\
--5 & 0
+-5 & 0 \\
 \end{pmatrix}
 $$
 
