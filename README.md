@@ -227,3 +227,85 @@ $$
 $$
 
 ---
+### EJERCICIO 4 – Verificar propiedades de determinantes
+
+Matrices:
+
+$$
+A =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3
+\end{pmatrix}, \quad
+B =
+\begin{pmatrix}
+1 & 2 \\
+3 & 1
+\end{pmatrix}
+$$
+
+**1. Verificar que \(\det(AB) = \det(A)\det(B)\)**
+
+- Determinantes individuales:
+
+$$
+\det(A) = 2 \cdot 3 - 1 \cdot 1 = 6 - 1 = 5
+$$
+
+$$
+\det(B) = 1 \cdot 1 - 2 \cdot 3 = 1 - 6 = -5
+$$
+
+$$
+\det(A)\det(B) = 5 \cdot (-5) = -25
+$$
+
+- Calcular \(AB\):
+
+$$
+AB =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 \\
+3 & 1
+\end{pmatrix}
+=
+\begin{pmatrix}
+5 & 5 \\
+10 & 5
+\end{pmatrix}
+$$
+
+- Determinante de \(AB\):
+
+$$
+\det(AB) = 5 \cdot 5 - 5 \cdot 10 = 25 - 50 = -25
+$$
+
+ Se cumple: \(\det(AB) = \det(A)\det(B) = -25\)
+
+---
+
+**2. Verificar que \(\det(A^T) = \det(A)\)**
+
+- Transpuesta de \(A\):
+
+$$
+A^T =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3
+\end{pmatrix}
+$$
+
+- Determinante:
+
+$$
+\det(A^T) = 2 \cdot 3 - 1 \cdot 1 = 6 - 1 = 5
+$$
+
+ Se cumple: \(\det(A^T) = \det(A) = 5\) 
+ -----
