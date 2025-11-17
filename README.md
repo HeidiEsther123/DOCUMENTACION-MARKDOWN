@@ -309,3 +309,65 @@ $$
 
  Se cumple: \(\det(A^T) = \det(A) = 5\) 
  -----
+ ### EJERCICIO 5 – Aplicación geométrica
+
+Vectores dados:
+
+$$
+\vec{u} = (3, 2), \quad \vec{v} = (1, 4)
+$$
+
+El área del paralelogramo que forman dos vectores en $\mathbb{R}^2$ se calcula como:
+
+$$
+\text{Área} = \left| \det
+\begin{pmatrix}
+3 & 1 \\
+2 & 4
+\end{pmatrix} \right|
+$$
+
+---
+
+**a) Área del paralelogramo**
+
+$$
+\det =
+3 \cdot 4 - 1 \cdot 2 = 12 - 2 = 10
+$$
+
+$$
+\text{Área} = |10| = 10
+$$
+
+---
+
+**b) ¿Cambia el área si se intercambian los vectores?**
+
+Si cambiamos el orden de los vectores, la matriz queda:
+
+$$
+\det
+\begin{pmatrix}
+1 & 3 \\
+4 & 2
+\end{pmatrix}
+= 1 \cdot 2 - 3 \cdot 4 = 2 - 12 = -10
+$$
+
+El determinante cambia de signo, pero el área sigue siendo:
+
+$$
+\text{Área} = |-10| = 10
+$$
+
+ El área **NO cambia**, solo cambia el signo del determinante.
+
+---
+
+**c) ¿Qué representa el signo del determinante?**
+
+- **Positivo:** los vectores $\vec{u}, \vec{v}$ siguen orientación antihoraria (positiva).  
+- **Negativo:** la orientación es horaria (inversa).  
+
+ El signo **no afecta el área**, solo indica la dirección en que uno gira hacia el otro.
