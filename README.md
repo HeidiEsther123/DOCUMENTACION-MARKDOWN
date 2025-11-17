@@ -1,7 +1,7 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
-## Alumno: Tanjiro Jesús Hernández López
 ## Alumno: Heidi Esther Peña Betanzos
+## Grupo: 1C
 ## Actividad #18 – Determinantes
 
 ---
