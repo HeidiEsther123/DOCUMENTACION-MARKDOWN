@@ -174,3 +174,4 @@ $$
 $$
 \det(F) = -10 - 38 = -48
 $$
+### Ejercicio 1 y 2 corregidos a la perfeccion para que se vean mas esteticos 
