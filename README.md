@@ -175,3 +175,55 @@ $$
 \det(F) = -10 - 38 = -48
 $$
 ### Ejercicio 1 y 2 corregidos a la perfeccion para que se vean mas esteticos 
+
+### EJERCICIO 3 – Método de cofactores
+
+Matriz:
+
+$$
+G =
+\begin{pmatrix}
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
+2 & 0 & 1
+\end{pmatrix}
+$$
+
+La mejor opción es expandir por la **segunda columna**, porque tiene dos ceros:
+
+$$
+\det(G) = 0 \cdot C_{12} + 3 \cdot C_{22} + 0 \cdot C_{32} = 3 \, C_{22}
+$$
+
+**Cofactor \(C_{22}\)**:
+
+$$
+C_{22} = (-1)^{2+2} \cdot
+\begin{vmatrix}
+1 & 2 \\
+2 & 1
+\end{vmatrix}
+$$
+
+Determinante del menor:
+
+$$
+\begin{vmatrix}
+1 & 2 \\
+2 & 1
+\end{vmatrix} = 1 \cdot 1 - 2 \cdot 2 = 1 - 4 = -3
+$$
+
+Como \((-1)^4 = 1\):
+
+$$
+C_{22} = -3
+$$
+
+**Determinante de G:**
+
+$$
+\det(G) = 3 \cdot (-3) = -9
+$$
+
+---
