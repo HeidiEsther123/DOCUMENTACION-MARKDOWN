@@ -12,70 +12,50 @@
 ### Calcula los determinantes de las siguientes matrices:
 
 A =  
-$$
-A = \begin{pmatrix}
-5 & 2 \\
-3 & 1 \\
-\end{pmatrix}
-$$
+\[
+A = \begin{pmatrix} 5 & 2 \\ 3 & 1 \end{pmatrix}
+\]
 
 B =  
-$$
-B = \begin{pmatrix}
--1 & 4 \\
-2 & -8 \\
-\end{pmatrix}
-$$
+\[
+B = \begin{pmatrix} -1 & 4 \\ 2 & -8 \end{pmatrix}
+\]
 
 C =  
-$$
-C = \begin{pmatrix}
-6 & 9 \\
-2 & 3 \\
-\end{pmatrix}
-$$
+\[
+C = \begin{pmatrix} 6 & 9 \\ 2 & 3 \end{pmatrix}
+\]
 
 D =  
-$$
-D = \begin{pmatrix}
-0 & 5 \\
--5 & 0 \\
-\end{pmatrix}
-$$
+\[
+D = \begin{pmatrix} 0 & 5 \\ -5 & 0 \end{pmatrix}
+\]
 
 ---
 
-##  Respuesta  
-
-- det(A) = **−1**  
-- det(B) = **0**  
-- det(C) = **0**  
-- det(D) = **25**
-
----
-
-## Procedimiento  
-
-Para cada matriz 2×2 se usa la fórmula:  
-
-$$
-\det\begin{pmatrix}
-a & b \\
-c & d
-\end{pmatrix}
-= ad - bc
-$$
-
-1. **Matriz A:**  
-   \(5(1) - 2(3) = -1\)
-
-2. **Matriz B:**  
-   \((-1)(-8) - 4(2) = 0\)
-
-3. **Matriz C:**  
-   \(6(3) - 9(2) = 0\)
-
-4. **Matriz D:**  
-   \(0(0) - 5(-5) = 25\)
+## Solución o Respuesta  
+det(A) = −1  
+det(B) = 0  
+det(C) = 0  
+det(D) = 25  
 
 ---
+
+## Proceso / Procedimiento  
+Para cada matriz 2×2 se usa la fórmula:
+
+\[
+\det\begin{pmatrix} a & b \\ c & d \end{pmatrix} = ad - bc
+\]
+
+**Matriz A:**  
+\(5(1) - 2(3) = -1\)
+
+**Matriz B:**  
+\((-1)(-8) - 4(2) = 0\)
+
+**Matriz C:**  
+\(6(3) - 9(2) = 0\)
+
+**Matriz D:**  
+\(0(0) - 5(-5) = 25\)
