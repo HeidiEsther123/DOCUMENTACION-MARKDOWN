@@ -266,13 +266,20 @@ $$
 Aquí está acomodado y escrito de forma limpia:
 
 $$
-A \times B
-
-\begin{pmatrix} 2 & 1 [4pt] 1 & 3 \end{pmatrix}
-\begin{pmatrix} 1 & 2 [4pt] 3 & 1 \end{pmatrix}
-
-
-\begin{pmatrix} 5 & 5 [4pt] 10 & 5 \end{pmatrix}
+A \times B =
+\begin{pmatrix}
+2 & 1 \\
+1 & 3
+\end{pmatrix}
+\begin{pmatrix}
+1 & 2 \\
+3 & 1
+\end{pmatrix}
+=
+\begin{pmatrix}
+5 & 5 \\
+10 & 5
+\end{pmatrix}
 $$
 
 
