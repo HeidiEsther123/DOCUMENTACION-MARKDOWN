@@ -31,9 +31,9 @@ A=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(A)=5(1)-2(3)=-1
-]
+$$
 
 ### **Matriz B**
 
