@@ -39,7 +39,7 @@ $$
 
 $$
 B=\begin{pmatrix}
--1 & 4 \
+-1 & 4 \\
 2 & -8
 \end{pmatrix}
 $$
@@ -52,7 +52,7 @@ $$
 
 $$
 C=\begin{pmatrix}
-6 & 9 \
+6 & 9 \\
 2 & 3
 \end{pmatrix}
 $$
@@ -65,7 +65,7 @@ $$
 
 $$
 D=\begin{pmatrix}
-0 & 5 \
+0 & 5 \\
 -5 & 0
 \end{pmatrix}
 $$
@@ -88,8 +88,8 @@ La regla de Sarrus calcula el determinante así:
 
 $$
 E=\begin{pmatrix}
-1 & 2 & 3 \
-0 & 1 & 4 \
+1 & 2 & 3 \\
+0 & 1 & 4 \\
 5 & 6 & 0
 \end{pmatrix}
 $$
@@ -102,8 +102,8 @@ $$
 
 $$
 F=\begin{pmatrix}
-2 & -1 & 3 \
-1 & 4 & 0 \
+2 & -1 & 3 \\
+1 & 4 & 0 \\
 3 & 2 & -2
 \end{pmatrix}
 $$
@@ -118,8 +118,8 @@ $$
 
 $$
 G=\begin{pmatrix}
-1 & 0 & 2 \
--1 & 3 & 1 \
+1 & 0 & 2 \\
+-1 & 3 & 1 \\
 2 & 0 & 1
 \end{pmatrix}
 $$
@@ -133,7 +133,7 @@ Se expande por la segunda columna:
 $$
 C_{22}=
 \begin{vmatrix}
-1 & 2 \
+1 & 2 \\
 2 & 1
 \end{vmatrix}=-3
 $$
@@ -150,12 +150,12 @@ Matrices utilizadas:
 
 $$
 A=\begin{pmatrix}
-2 & 1 \
+2 & 1 \\
 1 & 3
 \end{pmatrix},
 \quad
 B=\begin{pmatrix}
-1 & 2 \
+1 & 2 \\
 3 & 1
 \end{pmatrix}
 $$
@@ -171,7 +171,7 @@ $$
 $$
 AB=
 \begin{pmatrix}
-5 & 5 \
+5 & 5 \\
 10 & 5
 \end{pmatrix}
 $$
@@ -189,7 +189,7 @@ $$
 $$
 A^T=
 \begin{pmatrix}
-2 & 1 \
+2 & 1 \\
 1 & 3
 \end{pmatrix}
 $$
@@ -215,7 +215,7 @@ Vectores:
 $$
 \text{Área}=\left|
 \det\begin{pmatrix}
-3 & 1 \
+3 & 1 \\
 2 & 4
 \end{pmatrix}
 \right|=10
@@ -231,7 +231,7 @@ $$
 
 [
 \det\begin{pmatrix}
-1 & 3 \
+1 & 3 \\
 4 & 2
 \end{pmatrix}=-10
 ]
