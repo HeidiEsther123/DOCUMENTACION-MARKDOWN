@@ -233,14 +233,12 @@ Matrices:
 
 $$
 A =
-
 \begin{pmatrix}
 2 & 1 \\
 1 & 3
 \end{pmatrix}, \quad
 
 B =
-
 \begin{pmatrix}
 1 & 2 \\
 3 & 1
@@ -267,15 +265,19 @@ $$
 
 $$
 AB =
+
 \begin{pmatrix}
 2 & 1 \\
 1 & 3
 \end{pmatrix}
+
 \begin{pmatrix}
 1 & 2 \\
 3 & 1
 \end{pmatrix}
+
 =
+
 \begin{pmatrix}
 5 & 5 \\
 10 & 5
