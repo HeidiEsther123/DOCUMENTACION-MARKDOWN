@@ -24,12 +24,12 @@ $$
 
 ### **Matriz A**
 
-[
+$$
 A=\begin{pmatrix}
-5 & 2 \
+5 & 2 \\
 3 & 1
 \end{pmatrix}
-]
+$$
 
 [
 \det(A)=5(1)-2(3)=-1
