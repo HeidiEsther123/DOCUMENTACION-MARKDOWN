@@ -44,10 +44,9 @@ B=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(B)=(-1)(-8)-4(2)=0
-]
-
+$$
 ### **Matriz C**
 
 $$
@@ -57,9 +56,9 @@ C=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(C)=6(3)-9(2)=0
-]
+$$
 
 ### **Matriz D**
 
@@ -70,9 +69,9 @@ D=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(D)=0(0)-5(-5)=25
-]
+$$
 
 ---
 
@@ -80,9 +79,9 @@ $$
 
 La regla de Sarrus calcula el determinante así:
 
-[
+$$
 \det = (\text{suma de diagonales principales}) - (\text{suma de diagonales secundarias})
-]
+$$
 
 ### **Matriz E**
 
@@ -94,9 +93,9 @@ E=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(E)=40-39=1
-]
+$$
 
 ### **Matriz F**
 
@@ -108,9 +107,9 @@ F=\begin{pmatrix}
 \end{pmatrix}
 $$
 
-[
+$$
 \det(F)=-10-38=-48
-]
+$$
 
 ---
 
@@ -126,9 +125,9 @@ $$
 
 Se expande por la segunda columna:
 
-[
+$$
 \det(G)=3,C_{22}
-]
+$$
 
 $$
 C_{22}=
@@ -138,9 +137,9 @@ C_{22}=
 \end{vmatrix}=-3
 $$
 
-[
+$$
 \det(G)=3(-3)=-9
-]
+$$
 
 ---
 
@@ -162,9 +161,9 @@ $$
 
 ### **1. Verificar que (\det(AB)=\det(A)\det(B))**
 
-[
+$$
 \det(A)=5,\quad \det(B)=-5,\quad \det(A)\det(B)=-25
-]
+$$
 
 **Multiplicación:**
 
@@ -176,9 +175,9 @@ AB=
 \end{pmatrix}
 $$
 
-[
+$$
 \det(AB)=5\cdot5 - 5\cdot10 = -25
-]
+$$
 
 ✔ **Se cumple la propiedad.**
 
@@ -194,9 +193,9 @@ A^T=
 \end{pmatrix}
 $$
 
-[
+$$
 \det(A^T)=5=\det(A)
-]
+$$
 
 ✔ **Se cumple la propiedad.**
 
@@ -206,9 +205,9 @@ $$
 
 Vectores:
 
-[
+$$
 \vec{u}=(3,2),\quad \vec{v}=(1,4)
-]
+$$
 
 Área:
 
@@ -223,18 +222,18 @@ $$
 
 ### **a) Área total**
 
-[
+$$
 \text{Área}=10
-]
+$$
 
 ### **b) ¿Cambia si se intercambian los vectores?**
 
-[
+$$
 \det\begin{pmatrix}
 1 & 3 \\
 4 & 2
 \end{pmatrix}=-10
-]
+$$
 
 El signo cambia, **el área no**.
 
