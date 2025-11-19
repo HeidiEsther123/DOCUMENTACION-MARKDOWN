@@ -11,7 +11,7 @@
 
 El determinante de una matriz 2×2:
 
-$
+$$
 \begin{pmatrix} 
 a & b \\ 
 c & d 
@@ -20,7 +20,7 @@ c & d
 \Rightarrow 
 \quad 
 \det = ad - bc
-$
+$$
 
 ### **Matriz A**
 
