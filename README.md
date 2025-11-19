@@ -37,12 +37,12 @@ $$
 
 ### **Matriz B**
 
-[
+$$
 B=\begin{pmatrix}
 -1 & 4 \
 2 & -8
 \end{pmatrix}
-]
+$$
 
 [
 \det(B)=(-1)(-8)-4(2)=0
@@ -50,12 +50,12 @@ B=\begin{pmatrix}
 
 ### **Matriz C**
 
-[
+$$
 C=\begin{pmatrix}
 6 & 9 \
 2 & 3
 \end{pmatrix}
-]
+$$
 
 [
 \det(C)=6(3)-9(2)=0
@@ -63,12 +63,12 @@ C=\begin{pmatrix}
 
 ### **Matriz D**
 
-[
+$$
 D=\begin{pmatrix}
 0 & 5 \
 -5 & 0
 \end{pmatrix}
-]
+$$
 
 [
 \det(D)=0(0)-5(-5)=25
@@ -86,13 +86,13 @@ La regla de Sarrus calcula el determinante así:
 
 ### **Matriz E**
 
-[
+$$
 E=\begin{pmatrix}
 1 & 2 & 3 \
 0 & 1 & 4 \
 5 & 6 & 0
 \end{pmatrix}
-]
+$$
 
 [
 \det(E)=40-39=1
@@ -100,13 +100,13 @@ E=\begin{pmatrix}
 
 ### **Matriz F**
 
-[
+$$
 F=\begin{pmatrix}
 2 & -1 & 3 \
 1 & 4 & 0 \
 3 & 2 & -2
 \end{pmatrix}
-]
+$$
 
 [
 \det(F)=-10-38=-48
@@ -116,13 +116,13 @@ F=\begin{pmatrix}
 
 ## **Ejercicio 3 – Método de Cofactores**
 
-[
+$$
 G=\begin{pmatrix}
 1 & 0 & 2 \
 -1 & 3 & 1 \
 2 & 0 & 1
 \end{pmatrix}
-]
+$$
 
 Se expande por la segunda columna:
 
@@ -130,13 +130,13 @@ Se expande por la segunda columna:
 \det(G)=3,C_{22}
 ]
 
-[
+$$
 C_{22}=
 \begin{vmatrix}
 1 & 2 \
 2 & 1
 \end{vmatrix}=-3
-]
+$$
 
 [
 \det(G)=3(-3)=-9
@@ -148,7 +148,7 @@ C_{22}=
 
 Matrices utilizadas:
 
-[
+$$
 A=\begin{pmatrix}
 2 & 1 \
 1 & 3
@@ -158,7 +158,7 @@ B=\begin{pmatrix}
 1 & 2 \
 3 & 1
 \end{pmatrix}
-]
+$$
 
 ### **1. Verificar que (\det(AB)=\det(A)\det(B))**
 
@@ -168,13 +168,13 @@ B=\begin{pmatrix}
 
 **Multiplicación:**
 
-[
+$$
 AB=
 \begin{pmatrix}
 5 & 5 \
 10 & 5
 \end{pmatrix}
-]
+$$
 
 [
 \det(AB)=5\cdot5 - 5\cdot10 = -25
@@ -186,13 +186,13 @@ AB=
 
 ### **2. Verificar que (\det(A^T)=\det(A))**
 
-[
+$$
 A^T=
 \begin{pmatrix}
 2 & 1 \
 1 & 3
 \end{pmatrix}
-]
+$$
 
 [
 \det(A^T)=5=\det(A)
@@ -212,14 +212,14 @@ Vectores:
 
 Área:
 
-[
+$$
 \text{Área}=\left|
 \det\begin{pmatrix}
 3 & 1 \
 2 & 4
 \end{pmatrix}
 \right|=10
-]
+$$
 
 ### **a) Área total**
 
