@@ -172,6 +172,28 @@ Los valores de cada una se representan en niveles de coloes entre 0 y 1.
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0   | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 
+# 2. Traspuestas (traspuesta1 – traspuesta5)
 
+Cada una de estas hojas tiene la traspuesta de la matriz original correspondiente.
+
+#### La fórmula utilizada en cada hoja:
+
+
+=ARRAYFORMULA(TRANSPOSE(dibujo1!A1:AD30))
+
+
+###### Del mismo modo:
+
+traspuesta2 → dibujo2
+
+traspuesta3 → dibujo3
+
+traspuesta4 → dibujo4
+
+traspuesta5 → dibujo5
+
+###### Rango resultante:
+
+A1:AD30
 
 
