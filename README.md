@@ -426,7 +426,7 @@ Esta hoja realiza la suma de dos matrices de imágenes.
 =ARRAYFORMULA(dibujo1!A1:AD30 + dibujo2!A1:AD30)
 
  Explicación:
-$𝐴
+𝐴
 +
 𝐵
 =
@@ -438,9 +438,9 @@ $𝐴
 𝑏
 𝑖
 𝑗
-)$
+)
 
-$A+B=(a
+A+B=(a
 ij
 	​
 
@@ -448,7 +448,7 @@ ij
 ij
 	​
 
-)$
+)
 
 Cada elemento de la matriz es la suma de las celdas correspondientes de ambas imágenes.
                                                         
