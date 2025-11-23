@@ -440,15 +440,7 @@ Esta hoja realiza la suma de dos matrices de imágenes.
 𝑗
 )
 
-A+B=(a
-ij
-	​
-
-+b
-ij
-	​
-
-)
+A+B=(aij +bij)
 
 Cada elemento de la matriz es la suma de las celdas correspondientes de ambas imágenes.
                                                         
