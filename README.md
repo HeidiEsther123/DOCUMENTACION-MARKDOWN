@@ -1,292 +1,335 @@
 # Tecnológico de Software
 ## Materia: Fundamentos de álgebra
 ## Alumno: Heidi Esther Peña Betanzos
-## Actividad \#16 - Matrices doc
+## Actividad \#22 - Matrices doc
 
 ---
-# Identificación de matrices
-## EJERCICIO 1
-### Matriz identidad, porque la diagonal está compuestos por solo unos y los elementos fuera de la diagonal son ceros.
+Tecnológico de Software
+Materia: Fundamentos de álgebra
+3/12/2025
+Alumno: Astrit Airan Cetzal Cetzal
+Actividad #22 - Matrices
+Para esta actividad resolvimos ejercicios que implican matrices, esto con el fin de documentarlo. Apartir de varios metodos (Gauss, Gauss Jordan,inversa, Cramer) encontramos los valores de X, Y y Z .
+Ejercicio 1: Resolver con todos los metodos
+Gaus
+{
+x
++
+y
++
+z
+ 
+=
+6
+2
+x
+−
+y
++
+z
+ 
+=
+3
+x
+2
+y
+−
+z
+ 
+=
+2
+}
 
-$$ A 
-\begin{pmatrix}
-1 & 0 \\
-0 & 1 \\
-\end{pmatrix}
-$$
+A
+=
+[
+1
+1
+1
+2
+−
+1
+1
+1
+2
+−
+1
+]
 
-### Matriz diagonal, está compuestos por numeros en forma diagonal y los elementos fuera de la diagonal son ceros.
+B
+=
+[
+−
+1
+3
+2
+]
 
-$$ B
-\begin{pmatrix}
-3 & 0 & 0 \\
-0 & -2 & 0 \\
-0 & 0 & 5\\
-\end{pmatrix}
-$$
+Matriz aumentada
+[
+1
+1
+1
+2
+−
+1
+1
+1
+2
+−
+1
+]
+[
+−
+1
+3
+2
+]
 
-### Matriz simetrica, está compuestos por numeros los cuales estan reflejados en el otro lado.
+R2 -> -2R1 +R2 R3 -> -2R1 +R3
 
-$$ C
-\begin{pmatrix}
-2 & 1 & 4 \\
-1 & 3 & 5 \\
-4 & 5 & 6 \\
-\end{pmatrix}
-$$
+(
+1
+1
+1
+0
+−
+3
+−
+1
+0
+1
+−
+2
+)
+(
+6
+−
+9
+2
+)
 
-### Matriz triangular superior, está compuestos por numeros los cuales estan de forma triangular en la parte de arriba de las filas y columnas, los demas valores son 0.
+-1/3R2
 
-$$ D
-\begin{pmatrix}
-1 & 2 & 3 \\
-0 & 4 & 5 \\
-0 & 0 & 6 \\
-\end{pmatrix}
-$$
+(
+1
+1
+1
+0
+1
+−
+1
+/
+3
+0
+1
+−
+2
+)
+(
+6
+3
+−
+4
+)
 
-## EJERCICIO 2
+R3 -> -R2 + R3
 
-Calcula la suma de A y B
+(
+1
+1
+1
+0
+1
+1
+/
+3
+0
+0
+−
+7
+/
+3
+)
+(
+6
+3
+−
+7
+)
 
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
+x + y + z =6
+y + 1/3z=3
+-7/3=-7
 
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
+-7/3z = -7
+z= -7/1/-7/3
+z= 21/7
+z=3
 
-$$ A + B =
-\begin{pmatrix}
-2 + 5 & -1 + 2  \\
-3 + -1 & 4 + 3 \\
-\end{pmatrix}
-$$
+y + 1/3z=3
+y + 1/3(3)=3
+y + 1=3
+y=3-1
+y=2
 
-$$ A + B =
-\begin{pmatrix}
-7 & 1 \\
-2 & 7 \\
-\end{pmatrix}
-$$
+x + y + z =6
+x + 2 + 3= 6
+x + 5 = 6
+x = 6 -5
+x = 1
 
-Calcula la resta de 2A y B
+Comprobación 1+ 2 + 3 =6
 
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
+Gauss jordan $$ A= \begin{bmatrix} 1 & 1 & 1\ 2 & -1 & 1\ 1 & 2 & -1\ \end{bmatrix} $$
+B
+=
+[
+−
+1
+3
+2
+]
 
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
+Matriz aumentada
+[
+1
+1
+1
+2
+−
+1
+1
+1
+2
+−
+1
+]
+[
+−
+1
+3
+2
+]
 
-$$ 2A  =
-\begin{pmatrix}
-4 & -2 \\
-6 & 8 \\
-\end{pmatrix}
-$$
+R2 -> -2R1 +R2 R3 -> -2R1 +R3
 
-$$ 2A + B =
-\begin{pmatrix}
-4 - 5 & -2 - 2  \\
-6 - -1 & 8 - 3 \\
-\end{pmatrix}
-$$
+(
+1
+1
+1
+0
+−
+3
+−
+1
+0
+1
+−
+2
+)
+(
+6
+−
+9
+2
+)
 
-$$ 2A + B =
-\begin{pmatrix}
--1 & -4 \\
-7 & 5 \\
-\end{pmatrix}
-$$
+-1/3R2
 
-Calcula AB
+(
+1
+1
+1
+0
+1
+−
+1
+/
+3
+0
+1
+−
+2
+)
+(
+6
+3
+−
+4
+)
 
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
+R1 -> -R2 + R1 R3 -> -R2 + R3
 
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
+(
+1
+0
+2
+/
+3
+0
+1
+1
+/
+3
+0
+0
+−
+7
+/
+3
+)
+(
+3
+3
+−
+7
+)
 
-$$ AB =
-\begin{pmatrix}
-(2 * 5 + -1 * -1) (2 * 2 + -1 * 3)  \\
-(3 * 5 + 4 * -1) (3 * 2 + 4 * 3) \\
-\end{pmatrix}
-$$
+-7/3R3
 
-$$ AB =
-\begin{pmatrix}
-11 & 1 \\
-11 & 18 \\
-\end{pmatrix}
-$$
+(
+1
+0
+2
+/
+3
+0
+1
+1
+/
+3
+0
+0
+1
+)
+(
+3
+3
+3
+)
 
-Calcula BA
+R1=-2/3R3 + R1 R2=-1/3R3 + R2
 
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
+(
+1
+0
+0
+0
+1
+0
+0
+0
+1
+)
+(
+1
+2
+3
+)
 
-$$ B =
-\begin{pmatrix}
-5 & 2  \\
--1 & 3 \\
-\end{pmatrix}
-$$
+X = 1 | y = 2 | z = 3
 
-$$ BA =
-\begin{pmatrix}
-(5 * 2 + 2 * 3) (5 * -1 + 2 * 4)  \\
-(3 * 5 + 4 * -1) (-1 * -1 + 3 * 4) \\
-\end{pmatrix}
-$$
+Inversa
 
-$$ BA=
-\begin{pmatrix}
-16 & 3 \\
-7 & 13 \\
-\end{pmatrix}
-$$
-
-Transpuesta de A
-
-$$ A =
-\begin{pmatrix}
-2 & -1  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ AT =
-\begin{pmatrix}
-2 & 3  \\
--1 & 4  \\
-\end{pmatrix}
-$$
-
----
-# EJERCICIO 3
-
-Muliplicacion de cadena
-
-$$ A =
-\begin{pmatrix}
-1 & 2  \\
-3 & 4  \\
-\end{pmatrix}
-$$
-
-$$ B =
-\begin{pmatrix}
-2 & 0  \\
-1 & 3 \\
-\end{pmatrix}
-$$
-
-$$ C =
-\begin{pmatrix}
-1 & 1  \\
-0 & 2 \\
-\end{pmatrix}
-$$
-
-#### parte 1 AB
-$$ AB =
-\begin{pmatrix}
-(1 * 2 + 2 * 1) (1 * 0 + 2 * 3)  \\
-(3 * 2 + 4 * 1) (3 * 0 + 4 * 3) \\
-\end{pmatrix}
-$$
-
-$$ AB =
-\begin{pmatrix}
-4 & 6 \\
-10 & 12 \\
-\end{pmatrix}
-$$
-
-#### parte 2 AB(C)
-
-$$ (AB)C =
-\begin{pmatrix}
-(4 * 1 + 6 * 0) (4 * 1 + 6 * 2)  \\
-(10 * 1 + 12 * 0) (10 * 0 + 12 * 2) \\
-\end{pmatrix}
-$$
-
-$$ (AB)C =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-## Verificacion de que (AB)C = A(BC)
-
-#### parte 1 BC
-
-$$ BC =
-\begin{pmatrix}
-(2 * 1 + 0 * 0) (2 * 1 + 0 * 2)  \\
-(10 * 1 + 3 * 0) (1 * 1 + 3 * 2) \\
-\end{pmatrix}
-$$
-
-$$ BC =
-\begin{pmatrix}
-2 & 2 \\
-1 & 7 \\
-\end{pmatrix}
-$$
-
-#### parte 2 A(BC)
-
-$$ A(BC) =
-\begin{pmatrix}
-(1 * 2 + 2 * 1) (1 * 2 + 2 * 7)  \\
-(3 * 2 + 4 * 1) (3 * 2 + 4 * 7) \\
-\end{pmatrix}
-$$
-
-$$ A(BC) =
-\begin{pmatrix}
-4 & 16 \\
-10 & 34 \\
-\end{pmatrix}
-$$
-
-### Con esta verificacion podemos confirmar que (AB)C = A(BC) y es aciosativa.
----
-
-
-
-
-
-
-
+Cramer
