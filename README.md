@@ -1,14 +1,13 @@
-
-###Tecnológico de Software
-##Fundamentos de Álgebra
-##Actividad #22 – Matrices
+Tecnológico de Software
+Materia: Fundamentos de Álgebra
 Alumna: Heidi Esther Peña Betanzos
+Actividad #22 – Matrices
 
-#####Para esta actividad resolvimos ejercicios que implican el uso de matrices, con el fin de documentar los métodos de solución. A partir de varios métodos (Gauss, Gauss-Jordan, Inversa y Cramer) encontramos los valores de x, y, z.
+Para esta actividad se resolvieron ejercicios que involucran matrices utilizando distintos métodos: Gauss, Gauss-Jordan, Inversa y Cramer. El objetivo es documentar el procedimiento y los resultados obtenidos para las variables x, y y z.
 
- ##Ejercicio 1 — Resolver por todos los métodos
+Ejercicio 1
 
-Sistema:
+Resolver el siguiente sistema por todos los métodos:
 
 {
 𝑥
@@ -120,9 +119,9 @@ B=
 
 	​
 
-# Método de Gauss
+Método de Gauss
 
-####Matriz aumentada:
+Matriz aumentada:
 
 [
 1
@@ -178,8 +177,10 @@ B=
 	​
 
 
+Operaciones:
+
 R2 → R2 − 2R1
-R3 → R3 − 1R1
+R3 → R3 − R1
 
 [
 1
@@ -254,8 +255,8 @@ R2 → (-1/3)R2
 	
 1
 	
-1
 −
+1
 3
 	
 3
@@ -284,7 +285,8 @@ R2 → (-1/3)R2
 	​
 
 1
-−3
+−
+3
 1
 	​
 
@@ -315,8 +317,8 @@ R3 → R3 − R2
 	
 1
 	
-1
 −
+1
 3
 	
 3
@@ -346,7 +348,8 @@ R3 → R3 − R2
 	​
 
 1
-−3
+−
+3
 1
 	​
 
@@ -365,7 +368,7 @@ R3 → R3 − R2
 	​
 
 
-De aquí se despeja:
+Despeje:
 
 −
 7
@@ -416,7 +419,7 @@ y+
 1
 x+2+3=6⇒x=1
 
-##### Solución Gauss:
+Solución por Gauss:
 
 (
 𝑥
@@ -434,13 +437,9 @@ x+2+3=6⇒x=1
 3
 )
 (x,y,z)=(1,2,3)
-## Método Gauss-Jordan
+Método Gauss-Jordan
 
-Matriz aumentada inicial (igual que arriba).
-
-Después de los pasos (R2→R2−2R1, R3→R3−R1, normalización y eliminación):
-
-Se obtiene la matriz identidad:
+Al aplicar las operaciones correspondientes se obtiene finalmente:
 
 [
 1
@@ -494,21 +493,23 @@ Se obtiene la matriz identidad:
 	​
 
 
-##### Solución Gauss-Jordan:
+Solución por Gauss-Jordan:
 
 𝑥
 =
 1
 ,
+ 
 𝑦
 =
 2
 ,
+ 
 𝑧
 =
 3
-x=1,y=2,z=3
-## Método de la Inversa
+x=1, y=2, z=3
+Método de la Inversa
 𝑋
 =
 𝐴
@@ -519,15 +520,7 @@ X=A
 −1
 B
 
-La matriz inversa 
-𝐴
-−
-1
-A
-−1
- al multiplicarse por 
-𝐵
-B da como resultado:
+Al calcular la inversa de A y multiplicar por B:
 
 𝑋
 =
@@ -551,7 +544,7 @@ X=
 	​
 
 
-###### Solución Inversa:
+Solución por Inversa:
 
 (
 𝑥
@@ -569,56 +562,7 @@ X=
 3
 )
 (x,y,z)=(1,2,3)
-###### Método de Cramer
-
-Determinante de la matriz A:
-
-∣
-𝐴
-∣
-≠
-0
-⇒
-Sistema con soluci
-o
-ˊ
-n 
-u
-ˊ
-nica
-∣A∣
-
-=0⇒Sistema con soluci
-o
-ˊ
-n 
-u
-ˊ
-nica
-
-Aplicando las matrices 
-𝐴
-𝑥
-,
-𝐴
-𝑦
-,
-𝐴
-𝑧
-A
-x
-	​
-
-,A
-y
-	​
-
-,A
-z
-	​
-
-:
-
+Método de Cramer
 𝑥
 =
 ∣
@@ -630,16 +574,7 @@ z
 ∣
 =
 1
-x=
-∣A∣
-∣A
-x
-	​
-
-∣
-	​
-
-=1
+,
 𝑦
 =
 ∣
@@ -651,16 +586,7 @@ x
 ∣
 =
 2
-y=
-∣A∣
-∣A
-y
-	​
-
-∣
-	​
-
-=2
+,
 𝑧
 =
 ∣
@@ -672,7 +598,25 @@ y
 ∣
 =
 3
-z=
+x=
+∣A∣
+∣A
+x
+	​
+
+∣
+	​
+
+=1,y=
+∣A∣
+∣A
+y
+	​
+
+∣
+	​
+
+=2,z=
 ∣A∣
 ∣A
 z
@@ -683,7 +627,7 @@ z
 
 =3
 
-#### Solución Cramer:
+Solución por Cramer:
 
 (
 𝑥
@@ -701,7 +645,7 @@ z
 3
 )
 (x,y,z)=(1,2,3)
-## Solución Final de Todos los Métodos
+Solución Final
 𝑥
 =
 1
@@ -714,4 +658,3 @@ z
 =
 3
 x=1,y=2,z=3
-	​
